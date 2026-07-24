@@ -3,27 +3,27 @@ const galleries = {
     title: "Hotel de las Américas",
     description: "Mantenimiento y reparación de fachada en altura",
     images: Array.from(
-      { length: 7 },
+      { length: 15 },
       (_, index) =>
-        `assets/trabajos/hotel-americas/${String(index + 1).padStart(2, "0")}.jpg`,
+        `assets/trabajos/hotel-americas/${String(index + 1).padStart(2, "0")}.jpg?v=3`,
     ),
   },
   austria: {
     title: "Obra Austria",
     description: "Reparación y puesta en valor de superficies exteriores",
     images: Array.from(
-      { length: 8 },
+      { length: 13 },
       (_, index) =>
-        `assets/trabajos/austria/${String(index + 1).padStart(2, "0")}.jpg`,
+        `assets/trabajos/austria/${String(index + 1).padStart(2, "0")}.jpg?v=3`,
     ),
   },
   borges: {
     title: "Obra Borges",
     description: "Reparación de balcones, mampostería y terminaciones",
     images: Array.from(
-      { length: 8 },
+      { length: 20 },
       (_, index) =>
-        `assets/trabajos/borges/${String(index + 1).padStart(2, "0")}.jpg`,
+        `assets/trabajos/borges/${String(index + 1).padStart(2, "0")}.jpg?v=3`,
     ),
   },
   "palermo-soho": {
@@ -32,16 +32,16 @@ const galleries = {
     images: Array.from(
       { length: 5 },
       (_, index) =>
-        `assets/trabajos/palermo-soho/${String(index + 1).padStart(2, "0")}.jpg`,
+        `assets/trabajos/palermo-soho/${String(index + 1).padStart(2, "0")}.jpg?v=3`,
     ),
   },
   "river-plate": {
     title: "Trabajo River Plate",
     description: "Mantenimiento de estructuras y sectores de difícil acceso",
     images: Array.from(
-      { length: 8 },
+      { length: 44 },
       (_, index) =>
-        `assets/trabajos/river-plate/${String(index + 1).padStart(2, "0")}.jpg`,
+        `assets/trabajos/river-plate/${String(index + 1).padStart(2, "0")}.jpg?v=3`,
     ),
   },
 };

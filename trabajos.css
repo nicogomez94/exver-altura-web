@@ -22,7 +22,7 @@
   position: absolute;
   z-index: -3;
   inset: 0;
-  background: url("assets/trabajos/river-plate/01.jpg") 55% 42% / cover
+  background: url("assets/trabajos/river-plate/cover.jpg") 55% 42% / cover
     no-repeat;
   animation: hero-scale 1.8s cubic-bezier(0.2, 0.7, 0.3, 1) both;
 }

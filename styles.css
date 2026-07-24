@@ -470,6 +470,17 @@ h3 {
   line-height: 1.75;
 }
 
+.work-heading-aside {
+  max-width: 480px;
+}
+
+.work-heading-aside p {
+  margin-bottom: 18px;
+  color: #62625e;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
 .service-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -1087,6 +1098,10 @@ h3 {
   }
 
   .section-heading > p {
+    justify-self: end;
+  }
+
+  .work-heading-aside {
     justify-self: end;
   }
 

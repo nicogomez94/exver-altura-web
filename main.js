@@ -54,17 +54,21 @@ document.querySelectorAll(".fade-in").forEach((element, index) => {
   revealObserver.observe(element);
 });
 
-quoteForm.addEventListener("submit", (event) => {
-  event.preventDefault();
+if (quoteForm) {
+  quoteForm.addEventListener("submit", (event) => {
+    event.preventDefault();
 
-  const formData = new FormData(quoteForm);
-  const name = formData.get("name").trim();
-  const clientType = formData.get("client-type");
-  const message = formData.get("message").trim();
-  const text = `Hola EXVER, soy ${name}. Escribo por parte de un/a ${clientType.toLowerCase()}.\n\nNecesito consultar por: ${message}\n\nQuisiera solicitar un presupuesto sin cargo.`;
-  const whatsappUrl = `https://wa.me/5491164576876?text=${encodeURIComponent(text)}`;
+    const formData = new FormData(quoteForm);
+    const name = formData.get("name").trim();
+    const clientType = formData.get("client-type");
+    const message = formData.get("message").trim();
+    const text = `Hola EXVER, soy ${name}. Escribo por parte de un/a ${clientType.toLowerCase()}.\n\nNecesito consultar por: ${message}\n\nQuisiera solicitar un presupuesto sin cargo.`;
+    const whatsappUrl = `https://wa.me/5491164576876?text=${encodeURIComponent(text)}`;
 
-  window.open(whatsappUrl, "_blank", "noopener,noreferrer");
-});
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+  });
+}
 
-year.textContent = new Date().getFullYear();
+if (year) {
+  year.textContent = new Date().getFullYear();
+}

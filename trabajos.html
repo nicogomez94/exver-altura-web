@@ -17,7 +17,9 @@
       content="Galería de obras reales realizadas por EXVER en Buenos Aires."
     />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/image.png" />
     <title>Trabajos realizados | EXVER</title>
+    <link rel="icon" type="image/png" href="assets/image.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,8 +41,10 @@
     <header class="site-header is-scrolled" id="inicio">
       <div class="header-inner">
         <a class="brand" href="index.html" aria-label="EXVER, volver al inicio">
-          <span class="brand-word"><strong>EX</strong><em>VER</em></span>
-          <span class="brand-tagline">Acceso por cuerdas industrial</span>
+          <img
+            src="assets/image.png"
+            alt="EXVER — Acceso por cuerdas industrial"
+          />
         </a>
 
         <button
@@ -54,10 +58,16 @@
         </button>
 
         <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+          <a href="index.html">Inicio</a>
           <a href="index.html#servicios">Servicios</a>
           <a href="index.html#nosotros">Nosotros</a>
           <a href="index.html#seguridad">Seguridad</a>
-          <a class="current-page" href="trabajos.html?v=3">Trabajos</a>
+          <a
+            class="current-page"
+            href="trabajos.html"
+            aria-current="page"
+            >Trabajos</a
+          >
           <a class="nav-cta" href="index.html#contacto">Pedir presupuesto</a>
         </nav>
       </div>
@@ -225,10 +235,16 @@
     </main>
 
     <footer class="site-footer">
-      <div class="brand footer-brand">
-        <span class="brand-word"><strong>EX</strong><em>VER</em></span>
-        <span class="brand-tagline">Acceso por cuerdas industrial</span>
-      </div>
+      <a
+        class="brand footer-brand"
+        href="index.html"
+        aria-label="EXVER, volver al inicio"
+      >
+        <img
+          src="assets/image.png"
+          alt="EXVER — Acceso por cuerdas industrial"
+        />
+      </a>
       <p>
         © <span id="current-year"></span> EXVER. Todos los derechos reservados.
       </p>

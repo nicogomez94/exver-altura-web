@@ -290,7 +290,7 @@ h3 {
 .hero h1 {
   max-width: 760px;
   margin-bottom: 24px;
-  font-size: clamp(64px, 17vw, 142px);
+  font-size: clamp(64px, 11vw, 142px);
   font-weight: 800;
   line-height: 0.77;
   letter-spacing: -2.5px;
@@ -1002,7 +1002,7 @@ h3 {
   }
 
   .hero h1 {
-    font-size: clamp(80px, 16vw, 142px);
+    font-size: clamp(80px, 11vw, 142px);
   }
 
   .hero-actions {

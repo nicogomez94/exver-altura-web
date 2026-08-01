@@ -227,7 +227,7 @@ img {
   position: absolute;
   z-index: -2;
   inset: 0;
-  background: url("assets/exver-hero.jpg") 68% center / cover no-repeat;
+  background: url("assets/trabajos/river-plate/09.jpg") 68% center / cover no-repeat;
   transform: scale(1.02);
   animation: hero-scale 1.8s cubic-bezier(0.2, 0.7, 0.3, 1) both;
 }
@@ -290,7 +290,7 @@ h3 {
 .hero h1 {
   max-width: 760px;
   margin-bottom: 24px;
-  font-size: clamp(64px, 11vw, 142px);
+  font-size: clamp(50px, 8vw, 108px);
   font-weight: 800;
   line-height: 0.77;
   letter-spacing: -2.5px;
@@ -541,7 +541,7 @@ h3 {
 
 .about-photo {
   min-height: 440px;
-  background: url("assets/exver-hero.jpg") 75% center / cover no-repeat;
+  background: url("assets/trabajos/river-plate/11.jpg") center center / cover no-repeat;
   filter: saturate(0.8) contrast(1.04);
 }
 
@@ -1001,10 +1001,6 @@ h3 {
     --content: min(1180px, calc(100vw - 56px));
   }
 
-  .hero h1 {
-    font-size: clamp(80px, 11vw, 142px);
-  }
-
   .hero-actions {
     flex-direction: row;
     align-items: center;
@@ -1219,7 +1215,6 @@ h3 {
 
   .hero h1 {
     max-width: 890px;
-    font-size: clamp(110px, 9.8vw, 150px);
   }
 
   .hero-copy {

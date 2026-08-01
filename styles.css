@@ -541,7 +541,7 @@ h3 {
 
 .about-photo {
   min-height: 440px;
-  background: url("assets/trabajos/river-plate/11.jpg") center center / cover no-repeat;
+  background: url("assets/img.jpeg") center center / cover no-repeat;
   filter: saturate(0.8) contrast(1.04);
 }
 
